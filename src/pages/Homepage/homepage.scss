@@ -1,0 +1,59 @@
+@use "../../styles/variable";
+
+body {
+    font-family: variable.$default-font1;
+}
+
+.homepage {
+
+    text-align: center;
+    background-image: url(../../../images/23181121_6758420.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homepage-title {
+    font-size: 6em;
+}
+
+.homepage-subtitle {
+    max-width: 17em;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: 400;
+
+}
+
+.button-group {
+    font-size: 1.3em;
+    background-color: rgb(255, 255, 255);
+    color: rgb(45, 45, 44);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+
+
+.button-jouer {
+    max-width: 2em;
+    margin-top: 0.7em;
+    font-size: 3.5em;
+    margin: auto;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+@media screen and (max-width: 915px) {
+
+    .homepage {
+        background-image: url("../../../images/fond-decran-mobile.jpg");
+    }
+   
+}
